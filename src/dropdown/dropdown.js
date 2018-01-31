@@ -20,7 +20,7 @@ angular.module('ui.bootstrap.dropdown', ['ui.bootstrap.multiMap', 'ui.bootstrap.
         return toClose;
       }, {});
       if (openDropdown) {
-        return openedDropdowns.length == 1;
+        return openedDropdowns.length === 1;
       }
     }
 
